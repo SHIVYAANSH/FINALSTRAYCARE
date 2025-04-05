@@ -24,7 +24,7 @@
         <a href="adopt.html">Adopt</a>
         <a href="donate.html">Donate</a>
         <a href="aboutus.html">About US</a>
-        <a href="https://shivyaansh.github.io/STRAYABOT-2.0/">StrayBot </a>
+        <a href="">StrayBot </a>
         
     </nav>
 
@@ -32,7 +32,9 @@
 
     <!-- Main Content -->
     <div class="main-content">
-
+        <div id="imageOverlay" class="overlay" onclick="hideOverlay()">
+            <img id="overlayImage" class="overlay-image" />
+          </div>
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="profile-card">
@@ -45,13 +47,15 @@
             </div>
             
         </div>
-
+       
+          
         <!-- Post Feed -->
         <div class="post-feed">
 
         <div class="container">
           <h1>Reports of Stray Animals</h1>
           <div id="postsContainer"></div>
+          
         </div>
         </div>
 
